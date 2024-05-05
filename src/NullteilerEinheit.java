@@ -20,7 +20,7 @@ public class NullteilerEinheit {
             }
         }
         if (foundEinheit && foundNullteiler) {
-            System.out.println("Die Restklasse [" +  numClass +  "] ist sowohl Einheit, als auch ein Nullteiler");
+            System.out.println("Die Restklasse [" + numClass + "] ist sowohl Einheit, als auch ein Nullteiler");
         } else if (foundEinheit && !foundNullteiler) {
             System.out.println("Die Restklassse [" + numClass + "] ist eine Einheit");
         } else if (!foundEinheit && foundNullteiler) {
@@ -29,9 +29,4 @@ public class NullteilerEinheit {
             System.out.println("Die Restklasse [" + numClass + "] ist weder Einheit, noch Nullteiler");
         }
     }
-
-
-
-
-
 }
