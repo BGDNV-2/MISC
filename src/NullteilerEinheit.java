@@ -1,5 +1,5 @@
 
-public class Main {
+public class NullteilerEinheit {
     public static void main(String[] args) {
 
         find(6, 15); // Die erste Zahl ist die Restklasse, die zweite der Modulo
